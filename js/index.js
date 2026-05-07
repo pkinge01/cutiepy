@@ -19,7 +19,7 @@ navClose.addEventListener("click", () => {
   }
 });
 
-// Fixed Navbar
+// Fixed Nav
 const navBar = document.querySelector(".nav");
 const navHeight = navBar.getBoundingClientRect().height;
 window.addEventListener("scroll", () => {
